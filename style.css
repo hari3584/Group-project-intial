@@ -1,0 +1,363 @@
+@media only screen and (min-width: 992px)  {
+
+    .form-lft-pad {
+      padding-left: 9%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .OB {
+    display: none;
+  }
+  
+}
+
+
+body {
+  background-color:black;
+}
+
+.header-img {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfjjGssDZzZHVApfgDdMLgO9mOrFbSKQiQHA&usqp=CAU");
+  position: fixed; 
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-size: cover;
+  background-attachment: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+}
+
+.header-paragraph-margin {
+  margin-bottom: 4%;
+}
+
+.pp1 {
+  background: black;
+  color: #777;
+  padding: 10%;
+  max-width: 100%;
+  margin: 0;
+}
+
+#marginBottomButtons {
+  margin-bottom: 25%;
+  margin-top: 2%;
+}
+
+p {
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+}
+
+.img2 {
+    background-image: url("https://img.etimg.com/thumb/width-640,height-480,imgsize-96897,resizemode-1,msid-79363526/markets/stocks/news/stock-market-update-83-stocks-hit-52-week-highs-on-nse/52-week-highs.jpg");
+    min-height: 500px;
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  margin: 0;
+}
+
+.img3 {
+    background-image: url("");
+    min-height: 500px;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  margin: 0;
+}
+
+.img4 {
+    background-image: url("");
+    min-height: 200px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.break {
+  display: block;
+  height: 100%;
+  margin: 0;
+  background-color: #777777;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.caption {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Sans-Serif;
+    font-size: 5em;
+}
+
+.macbook-img {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.olly-img {
+  border-radius: 50%;
+}
+
+.header-txt {
+  font-size: 4.5em;
+  margin-bottom: 4%;
+}
+
+.wrapper {
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-top: 3%;
+  opacity: 0.9;
+}
+
+.margin-chat {
+  margin-top: 5%;
+}
+
+.text-color {
+  color: white;
+  font-family: Sans-Serif
+}
+
+#strong {
+  font-weight: bold;
+}
+
+#margin-right {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.head-link {
+  color: white;
+  font-family: Sans-Serif;
+  font-weight: bold;
+}
+
+.head-link:hover {
+  text-decoration: none;
+  color:  red;
+}
+
+.div-link {
+  color: white;
+}
+
+.div-link:hover {
+  text-decoration: none;
+  color: #606060;
+}
+
+.img-link {
+  color: white;
+}
+
+.img-link:hover {
+  text-decoration: none;
+  color: #777777;
+}
+
+.mgn-left {
+  margin-left: -1.5%;
+}
+
+nav {
+  margin-top: 3%;
+}
+
+.large-txt {
+  font-size: 6em;
+}
+
+.full-scrn {
+  height: ;
+}
+
+.input-style {
+  border-bottom: 2px solid #777777;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+
+.form-margin {
+  margin-bottom: 8%;
+}
+
+.header-button1 {
+  opacity: 0.3;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.header-button2 {
+  opacity: 0.8;
+  background-color: #2271b4;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.header-buttons {
+  font-family: Sans-serif;
+  font-weight: bold;
+}
+
+.header-buttons:hover {
+  background-color: #484848;
+}
+
+.font-header {
+  font-family: Sans-Serif;
+  font-size: 1.6em;
+}
+
+.margin-below {
+  margin-bottom: 15%;
+}
+
+
+.fake-btn-stylz {
+  border: 1px solid #316ea2;
+  margin: 1%;
+  background-color: #377bb5;
+  opacity: 0.7;
+  border-radius: 5%;
+  color: white;
+}
+
+/*form fade in animation*/
+#form1 {
+  display: none;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
+}
+
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.social-links {
+  border: 2px solid white;
+  border-radius: 15px 50px;
+  color: white;
+}
+
+.social-links:hover {
+  color: #777777;
+  background-color: white;
+  -webkit-animation: fadein 1s;
+       -moz-animation: fadein 1s;
+        -ms-animation: fadein 1s;
+         -o-animation: fadein 1s;
+            animation: fadein 1s;
+}
+
+#to-top {
+  color: white;
+  text-weight: bold;
+}
+
+footer {
+  background-color: #777777;
+  padding: 1% 15% 1% 10%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  background-color: #EF1C25;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #2D3092;
+  color: #00AEEF;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
